@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CentOS7_kickstart
 A General Kickstart File used to speed up and standardize my Redhat distro installs.
 =======
@@ -13,4 +12,4 @@ This repo contains the following files.
 * cis_rhel7.cfg = The main kickstart file.
 * cis_rhel7_pre.sh = BASH script run during the %pre section of the main kickstart file
 * cis_rhel7_post.sh = BASH script run during the %post section of the main kickstart file
->>>>>>> FETCH_HEAD
+
