@@ -2,7 +2,7 @@
 A General Kickstart File used to speed up and standardize my Redhat distro installs.
 =======
 # CIS_Kickstart
-The following repo contains the scripts and files necessary to kickstart a CentOS 7 system which conforms to the CIS specification. The specification can be found at the link below
+The following repo contains the scripts and files necessary to kickstart a CentOS 7 system. I hope to eventually make the installation conform to CIS security standards.
 
 https://benchmarks.cisecurity.org/downloads/show-single/?file=rhel7.210
 
@@ -17,4 +17,4 @@ This repo contains the following files.
 During GRUB prompt for installation or test, press "TAB". Then append the following to the kernel parameters:
 ks=https://raw.githubsercontent.com/Timothy-Pulliam/CentOS7_kickstart/master/rhel7_kickstart.cfg
 
-Press enter and the kickstart should automatically run through the Anaconda installer without user prompt.
+Press enter and the kickstart should automatically run through the Anaconda installer. I will only prompt for the hostname of the system.
