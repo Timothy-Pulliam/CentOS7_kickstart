@@ -7,7 +7,7 @@ Used to kickstart a minimal headless server. As its name implies it has minimal 
 I took this kickstart file straight from a minimal installation. The only change
 I made was to add 'clearpart --all --initlabel' to the partition section to allow
 installation to clear any existing partition information.
-=======
+
 
 # rhel7_kickstart.cfg
 Includes a post section for updating the system, as well as adding a user's SSH keys
